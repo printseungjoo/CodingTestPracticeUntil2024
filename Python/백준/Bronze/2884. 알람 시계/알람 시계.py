@@ -1,0 +1,13 @@
+a,b=map(int,input().split())
+if(b-45>=0):
+   b-=45
+else:
+   if(a==0):
+      a=23
+      b=45-b
+      b=60-b
+   else:
+      a-=1
+      b=45-b
+      b=60-b
+print(a,b)
